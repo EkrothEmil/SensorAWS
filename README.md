@@ -118,7 +118,7 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(-----BEGIN RSA PRIVATE KEY-
 ### Visualisering med Grafana
 
 1. **Konfigurera din unika URL som datakälla**  
-   - Din IoT-lösning genererar data som är åtkomlig via en unik URL, som kan användas som datakälla i Grafana.  
+   - Din IoT-lösning genererar data som är åtkomlig via en unik URL som du får av lambda funktion, som sedankan användas som datakälla i Grafana.  
    - Gå till **Configuration > Data Sources** i Grafana:  
      - Klicka på "Add data source".  
      - Välj yesoireyeram-infinity-datasource.
