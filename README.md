@@ -89,10 +89,14 @@ Detta projekt är en omfattande guide för att konfigurera och använda AWS och 
    #define WIFI_PASSWORD "DittWiFiLösenord"
 
    // AWS IoT Core-konfiguration
-   #define AWS_IOT_ENDPOINT "din-iot-endpoint.amazonaws.com"
-   #define AWS_CERT_CA "-----BEGIN CERTIFICATE-----\nDitt Root CA-certifikat\n-----END CERTIFICATE-----"
-   #define AWS_CERT_CRT "-----BEGIN CERTIFICATE-----\nDitt certifikat\n-----END CERTIFICATE-----"
-   #define AWS_CERT_PRIVATE "-----BEGIN PRIVATE KEY-----\nDin privata nyckel\n-----END PRIVATE KEY-----"
+// Amazon Root CA 1
+static const char AWS_CERT_CA[] PROGMEM = R"EOF(-----BEGIN CERTIFICATE-----"DittCertifikat"-----END CERTIFICATE-----)EOF";
+
+// Device Certificate
+static const char AWS_CERT_CRT[] PROGMEM = R"KEY(-----BEGIN CERTIFICATE-----"DittCertifikat"-----END CERTIFICATE-----)KEY";
+
+// Device Private Key
+static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(-----BEGIN RSA PRIVATE KEY-----"DittCertifikat"-----END RSA PRIVATE KEY-----)KEY";
 
    #endif
    ```
