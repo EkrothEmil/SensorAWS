@@ -147,12 +147,9 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(-----BEGIN RSA PRIVATE KEY-
 
 2. **Konfigurera AWS Lambda för notifieringar**  
    - Skapa en Lambda-funktion som skickar notifieringar till Telegram när specifika villkor uppfylls.  
-       
-3. **Automatisera notifieringar**  
-   - Skapa en trigger från DynamoDB eller AWS IoT Core som aktiverar Lambda-funktionen när sensorvärden överstiger eller understiger definierade gränsvärden.  
 
-4. **Testa notifieringarna**  
-   - Skicka ett testmeddelande från Lambda till Telegram för att bekräfta att integrationen fungerar korrekt.
+3. **Notifieringarna**  
+   - Starta din device och avsluta den, då skickas ett meddelande från Lambda till Telegram med online/offlinestatus.
   
     ![Telegram](https://github.com/user-attachments/assets/d91f217d-899b-4be0-9469-f6f42cc56302)
 
