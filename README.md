@@ -99,7 +99,7 @@ static const char AWS_CERT_CRT[] PROGMEM = R"KEY(-----BEGIN CERTIFICATE-----"Dit
 // Device Private Key
 static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(-----BEGIN RSA PRIVATE KEY-----"DittCertifikat"-----END RSA PRIVATE KEY-----)KEY";
 
-   #endif
+
    ```
 
 
