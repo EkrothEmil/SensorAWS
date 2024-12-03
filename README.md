@@ -85,8 +85,9 @@ Detta projekt är en omfattande guide för att konfigurera och använda AWS och 
    #define SECRETS
 
    // WiFi-konfiguration
-   #define WIFI_SSID "DittWiFiSSID"
-   #define WIFI_PASSWORD "DittWiFiLösenord"
+const char WIFI_SSID[] = "";
+const char WIFI_PASSWORD[] = "";
+const char AWS_IOT_ENDPOINT[] = "";
 
    // AWS IoT Core-konfiguration
 // Amazon Root CA 1
