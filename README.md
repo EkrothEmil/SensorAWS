@@ -159,7 +159,7 @@ Detta projekt är en omfattande guide för att konfigurera och använda AWS och 
 
 - **Automatiserad hantering**: Använd **AWS IoT Device Management** för att registrera och övervaka IoT-enheter.
    
-- **Skydda data**: Hantera API-nycklar och certifikat med **AWS Secrets Manager**.
+- **Skydda data**: Hantera API-nycklar och certifikat med **AWS Secrets Manager** i framtiden för ytterligare säkerhet.
    
 - **Skalbarhet**: Skala DynamoDB automatiskt och utnyttja AWS:s flexibla prissättning.  
 
