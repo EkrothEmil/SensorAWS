@@ -166,7 +166,7 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(-----BEGIN RSA PRIVATE KEY-
 - **Skalbarhet**: 
   - Skala DynamoDB automatiskt och utnyttja AWS:s flexibla prissättning.  
   - Lägg till **Amazon S3** för säker, skalbar och kostnadseffektiv lagring av stora mängder data i framtiden.
-  - Man kan änven använda sig av **on-demand kapacitet** för dynamisk skalning baserat på trafikmönster och minimera kostnader genom att bara betala för faktiska läs- och skrivåtgärder.  
+  - Man kan änven lägga till och använda sig av **on-demand kapacitet** för dynamisk skalning baserat på trafikmönster och minimera kostnader genom att bara betala för faktiska läs- och skrivåtgärder.  
 
 - **Säkra anslutningar**: Använd MQTTS (SSL/TLS) med `WiFiClientSecure` och unika certifikat.  
 
