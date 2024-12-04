@@ -24,7 +24,7 @@
 
 # Introduktion
 
-Detta projekt är en omfattande guide för att konfigurera och använda AWS och DynamoDB för att samla in och analysera data från en ESP32-enhet kopplad till en DHT11-sensor. Genom att följa denna guide kommer du att kunna skapa en IoT-lösning som samlar in, bearbetar och lagrar data i realtid. Lösningen kan användas för olika IoT-applikationer, som att övervaka miljöförhållanden, skapa smarta hemlösningar eller förbättra affärsprocesser med hjälp av datainsikter. Det slutliga resultatet är en skalbar IoT-lösning som hanterar stora mängder data, med möjligheten att använda AWS-tjänster som AWS IoT Core för hantering av enheter och DynamoDB för effektiv lagring. Insikterna från denna data kan visualiseras med verktyg som grafana eller externa plattformar för datavisualisering. Samt koppling till Telegram bot för att kunna se online/offline status. 
+Detta projekt är en omfattande guide för att konfigurera och använda AWS och DynamoDB för att samla in och analysera data från en ESP32-enhet kopplad till en DHT11-sensor. Genom att följa denna guide kommer du att kunna skapa en IoT-lösning som samlar in, bearbetar och lagrar data i realtid. Lösningen kan användas för olika IoT-applikationer, som att övervaka miljöförhållanden, skapa smarta hemlösningar. Det slutliga resultatet är en skalbar IoT-lösning som hanterar stora mängder data, med möjligheten att använda AWS-tjänster som AWS IoT Core för hantering av enheter och DynamoDB för effektiv lagring. Insikterna från denna data kan visualiseras med verktyg som grafana eller externa plattformar för datavisualisering. Samt koppling till Telegram bot för att kunna se online/offline status. 
 
 # Komponenter
 
@@ -125,7 +125,7 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(-----BEGIN RSA PRIVATE KEY-
      - Välj yesoireyeram-infinity-datasource.
      - Ange din unika URL som datakälla.  
        - Exempel: `https://din-unika-url/api/data`.  
-     - Konfigurera autentisering med  Header `authorization` samt `din-key`.  
+     - Konfigurera autentisering med Header `authorization` samt `din-key`.  
 
 2. **Skapa Dashboards i Grafana**  
    - Designa anpassade dashboards för att visualisera realtidsdata:  
