@@ -163,11 +163,16 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(-----BEGIN RSA PRIVATE KEY-
    
 - **Skydda data**: Hantera API-nycklar och certifikat med **AWS Secrets Manager** i framtiden för ytterligare säkerhet.
    
-- **Skalbarhet**: Skala DynamoDB automatiskt och utnyttja AWS:s flexibla prissättning.  
+- **Skalbarhet**: 
+  - Skala DynamoDB automatiskt och utnyttja AWS:s flexibla prissättning.  
+  - Lägg till **Amazon S3** för säker, skalbar och kostnadseffektiv lagring av stora mängder data i framtiden.
 
 - **Säkra anslutningar**: Använd MQTTS (SSL/TLS) med `WiFiClientSecure` och unika certifikat.  
 
-- **Åtkomstkontroll**: Begränsa enheters rättigheter med **AWS IoT Policies**.
+- **Åtkomstkontroll**: 
+  - Begränsa enheters rättigheter med **AWS IoT Policies**.  
+  - Lägg till **AWS Identity and Access Management (IAM)-roller** i framtiden för att säkerställa att endast auktoriserade enheter och användare har åtkomst till resurser vilket ger ökad säkerhet.
+
 
 ---
 
